@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_0806" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/team_a_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:text="My Nanodegree Apps!"
+        android:textAlignment="center"
+        android:textColor="#FAFAFA"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/spotify_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/mybutton"
+        android:onClick="onButtonClicked"
+        android:text="SPOTIFY STREAMER"
+        android:textAlignment="center"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/score_app_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/mybutton"
+        android:onClick="onButtonClicked"
+        android:text="SCORES APP"
+        android:textAlignment="center"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/library_app_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/mybutton"
+        android:onClick="onButtonClicked"
+        android:text="LIBRARY APP"
+        android:textAlignment="center"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/build_it_bigger_app_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/mybutton"
+        android:onClick="onButtonClicked"
+        android:text="BUILD IT BIGGER"
+        android:textAlignment="center"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/xyz_reader_app_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/mybutton"
+        android:onClick="onButtonClicked"
+        android:text="XYZ READER"
+        android:textAlignment="center"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/capstone_app_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/mybuttonred"
+        android:onClick="onButtonClicked"
+        android:text="CAPSTONE: MY OWN APP"
+        android:textAlignment="center"
+        android:textColor="#FAFAFA"/>
+
+</LinearLayout>
+
+</RelativeLayout>
